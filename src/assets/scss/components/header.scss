@@ -1,3 +1,44 @@
 // для каждого компонента нужно импортить переменные, чтобы их использовать
 @import "../utils/parameters";
 @import "../utils/mixins";
+
+.header {
+padding: 1.5rem 0;
+
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    } 
+
+    &__links {
+        display: flex;
+        align-items: center;   
+    }
+}
+
+.logo {
+    display: inline-block;
+
+    &__img {
+        
+    }
+}
+
+.link-header {
+    display: inline-block;
+    font-size: 1.5rem;
+
+    &--right {
+        color: #FFFFFF;
+        border-radius: 1.2rem;
+        padding: 1rem 2.55rem;
+        background-color: $c-secondary;
+        font-size: 1.6rem;
+        line-height: 125%;
+    }
+
+    &--left {
+        
+    }
+}
