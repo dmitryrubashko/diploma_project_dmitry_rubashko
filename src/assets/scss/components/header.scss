@@ -13,7 +13,8 @@ padding: 1.5rem 0;
 
     &__links {
         display: flex;
-        align-items: center;   
+        align-items: center;
+        margin-left: auto;   
     }
 }
 
@@ -21,13 +22,17 @@ padding: 1.5rem 0;
     display: inline-block;
 
     &__img {
-        
+        margin-right: 6.4rem;
     }
 }
 
 .link-header {
     display: inline-block;
     font-size: 1.5rem;
+
+    &--left {
+        margin-right: 10px;
+    }
 
     &--right {
         color: #FFFFFF;
@@ -36,9 +41,5 @@ padding: 1.5rem 0;
         background-color: $c-secondary;
         font-size: 1.6rem;
         line-height: 125%;
-    }
-
-    &--left {
-        
     }
 }

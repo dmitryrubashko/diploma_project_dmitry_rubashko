@@ -244,14 +244,19 @@ button {
     justify-content: space-between; }
   .header__links {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    margin-left: auto; }
 
 .logo {
   display: inline-block; }
+  .logo__img {
+    margin-right: 6.4rem; }
 
 .link-header {
   display: inline-block;
   font-size: 1.5rem; }
+  .link-header--left {
+    margin-right: 10px; }
   .link-header--right {
     color: #FFFFFF;
     border-radius: 1.2rem;
