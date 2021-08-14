@@ -8,10 +8,10 @@
     &__row {
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
     }
 
     &__info {
-        padding-top: 8.8rem;
         padding-right: 22.4rem;
     }
 }
@@ -27,9 +27,16 @@ h3 {
 }
 
 .item {
-    &__img {
-        margin-left: -1.6rem;
-        margin-bottom: -2.4rem;
+    &__number {
+        font-size: 20px;
+        line-height: 160%;
+        color: #fff;
+        max-width: 5.6rem;
+        min-height: 5.6rem;
+        border-radius: 100%;
+        text-align: center;
+        background-color: $c-secondary;
+        padding-top: 1.3rem;
     }   
     
     &__title {
@@ -44,5 +51,12 @@ h3 {
         color: rgba(7, 19, 48, 0.6);
         max-width: 54rem;
     }
+
+    &__number {
+        margin-left: 0.1rem;
+        margin-bottom: 2.3rem;
+    }
 }
+
+
 
