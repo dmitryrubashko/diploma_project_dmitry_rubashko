@@ -1,0 +1,40 @@
+.eczema  {
+    margin-top: 31.5rem;
+
+    .container {
+        position: relative;
+    }
+
+    &__row {
+        display: flex;
+    }
+
+    &__img {
+        padding-left: 6.2rem;
+    }
+
+    &__info {
+        margin-left: 23.4rem;
+        padding-top: 8.5rem;
+        max-width: 47rem;
+    }
+
+    &__title {
+        padding-top: 2.1rem;
+        padding-bottom: 3.4rem;
+        font-size: 40px;
+        line-height: 117%;
+        max-width: 40rem;
+    }
+
+    &__text {
+        font-size: 1.8rem;
+        line-height: 178%;
+        padding-bottom: 3.2rem;
+    }
+}
+ h2 {
+    font-size: 1.6rem;
+    line-height: 125%;
+    color: $c-secondary;
+ }

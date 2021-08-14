@@ -376,3 +376,31 @@ button {
     text-align: center;
     margin: 0;
     padding: 0 0 1rem 0; } }
+
+.eczema {
+  margin-top: 31.5rem; }
+  .eczema .container {
+    position: relative; }
+  .eczema__row {
+    display: flex; }
+  .eczema__img {
+    padding-left: 6.2rem; }
+  .eczema__info {
+    margin-left: 23.4rem;
+    padding-top: 8.5rem;
+    max-width: 47rem; }
+  .eczema__title {
+    padding-top: 2.1rem;
+    padding-bottom: 3.4rem;
+    font-size: 40px;
+    line-height: 117%;
+    max-width: 40rem; }
+  .eczema__text {
+    font-size: 1.8rem;
+    line-height: 178%;
+    padding-bottom: 3.2rem; }
+
+h2 {
+  font-size: 1.6rem;
+  line-height: 125%;
+  color: #3D55F9; }
