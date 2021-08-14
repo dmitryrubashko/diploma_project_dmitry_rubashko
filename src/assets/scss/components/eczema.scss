@@ -7,6 +7,7 @@
 
     &__row {
         display: flex;
+        flex-wrap: wrap;
     }
 
     &__img {
@@ -22,7 +23,7 @@
     &__title {
         padding-top: 2.1rem;
         padding-bottom: 3.4rem;
-        font-size: 40px;
+        font-size: 4rem;
         line-height: 117%;
         max-width: 40rem;
     }
@@ -33,8 +34,79 @@
         padding-bottom: 3.2rem;
     }
 }
+
  h2 {
     font-size: 1.6rem;
     line-height: 125%;
     color: $c-secondary;
+ }
+
+ @media screen and (max-width: $md) {
+    .eczema {
+        margin-top: 8rem;
+
+        &__info {
+            margin-left: 10rem;
+            max-width: 38rem;
+            padding-top: 7.5rem;
+        }
+
+        &__title {
+            font-size: 3.5rem;  
+        }
+    }
+ }
+
+ @media screen and (max-width: $sm) {
+    .eczema {  
+        margin-top: 4rem;
+
+        &__img {
+            padding-left: 2rem;
+        }
+
+        &__info {
+            max-width: 32rem;
+            margin-left: 3rem;
+            padding-top: 5.5rem;
+        }
+
+        &__title {
+            font-size: 3rem;
+            padding-bottom: 2rem;
+        }
+
+        &__text {
+            font-size: 1.6rem;
+            padding-bottom: 2rem;
+        }
+    }
+ }
+
+ @media screen and (max-width: $xs) {
+    .eczema {
+        &__img {
+            padding-left: 2rem;
+            width: 50vw;
+        }
+
+        &__info {
+            max-width: 20rem;
+        }
+
+        &__title {
+            font-size: 2rem;
+            padding-bottom: 1.5rem;
+        }
+
+        &__text {
+            font-size: 1.2rem;
+            padding-bottom: 1.5rem;
+        }
+
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
  }

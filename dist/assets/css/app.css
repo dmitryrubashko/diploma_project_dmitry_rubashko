@@ -239,6 +239,7 @@ button {
 .header {
   padding: 1.5rem 0; }
   .header__row {
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: space-between; }
@@ -281,6 +282,7 @@ button {
   .first-section .container {
     position: relative; }
   .first-section__row {
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between; }
   .first-section__img {
@@ -382,7 +384,8 @@ button {
   .eczema .container {
     position: relative; }
   .eczema__row {
-    display: flex; }
+    display: flex;
+    flex-wrap: wrap; }
   .eczema__img {
     padding-left: 6.2rem; }
   .eczema__info {
@@ -392,7 +395,7 @@ button {
   .eczema__title {
     padding-top: 2.1rem;
     padding-bottom: 3.4rem;
-    font-size: 40px;
+    font-size: 4rem;
     line-height: 117%;
     max-width: 40rem; }
   .eczema__text {
@@ -404,3 +407,44 @@ h2 {
   font-size: 1.6rem;
   line-height: 125%;
   color: #3D55F9; }
+
+@media screen and (max-width: 1024px) {
+  .eczema {
+    margin-top: 8rem; }
+    .eczema__info {
+      margin-left: 10rem;
+      max-width: 38rem;
+      padding-top: 7.5rem; }
+    .eczema__title {
+      font-size: 3.5rem; } }
+
+@media screen and (max-width: 768px) {
+  .eczema {
+    margin-top: 4rem; }
+    .eczema__img {
+      padding-left: 2rem; }
+    .eczema__info {
+      max-width: 32rem;
+      margin-left: 3rem;
+      padding-top: 5.5rem; }
+    .eczema__title {
+      font-size: 3rem;
+      padding-bottom: 2rem; }
+    .eczema__text {
+      font-size: 1.6rem;
+      padding-bottom: 2rem; } }
+
+@media screen and (max-width: 576px) {
+  .eczema__img {
+    padding-left: 2rem;
+    width: 50vw; }
+  .eczema__info {
+    max-width: 20rem; }
+  .eczema__title {
+    font-size: 2rem;
+    padding-bottom: 1.5rem; }
+  .eczema__text {
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem; }
+  h2 {
+    font-size: 1.5rem; } }
