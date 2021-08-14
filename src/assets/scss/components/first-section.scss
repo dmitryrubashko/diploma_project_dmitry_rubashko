@@ -16,6 +16,7 @@
     &__img {
         position: absolute;
         right: 6.5rem;
+        max-width: 40vw;
     }
 }
 
@@ -34,7 +35,6 @@
         font-size: 1.8rem;
         line-height: 178%;
         max-width: 48.5rem;
-        padding-bottom: 0;
         padding-bottom: 2.2rem;
     }
 
@@ -70,5 +70,80 @@
     padding-left: 0.9rem;
     margin-right: 7.2rem;
     border: none;
+}
+
+@media screen and (max-width: $md) {
+    .healthy-skin {
+        padding-top: 4rem;
+        max-width: 43rem;
+        padding-left: 4rem;
+        
+        &__answers {
+            font-size: 3.7rem;
+            margin-bottom: 4rem;
+        }
+
+        &__button {
+            padding: 1.2rem 1rem;
+            min-width: 14rem;
+        }
+    }
+
+}
+
+@media screen and (max-width: $sm) {
+    .healthy-skin {
+        padding-top: 2rem;
+        max-width: 37rem;
+
+        &__answers {
+            font-size: 3.1rem;
+            margin-bottom: 2rem;
+        }
+
+        &__skincare {
+            font-size: 1.65rem;
+        }
+
+        &__button {
+            font-size: 1.4rem;
+            min-width: 9.3rem;
+        }
+    }
+
+}
+
+@media screen and (max-width: $xs) {
+    .healthy-skin {
+        max-width: 29rem;
+
+        &__answers {
+            font-size: 2rem;
+        }
+
+        &__skincare {
+            font-size: 1.4rem;
+            padding-bottom: 1.2rem;
+        }
+
+        &__button {
+            font-size: 1.4rem;
+            min-width: 5.3rem;
+            padding: 0.6rem 1rem;
+        }
+    }
+    
+    .email {
+        display: inline-block;
+        max-width: 22rem;
+        text-align: center;
+        padding: 0.6rem;
+    }
+
+    #email {
+        text-align: center;
+        margin: 0;
+        padding: 0 0 1rem 0;
+    }
 }
 

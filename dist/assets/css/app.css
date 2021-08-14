@@ -262,6 +262,20 @@ button {
     margin-left: auto;
     margin-right: 0; }
 
+@media screen and (max-width: 576px) {
+  .logo {
+    margin-right: 2rem; }
+  .link-header {
+    margin-right: 3.5rem;
+    font-size: 1.8rem; }
+    .link-header--right {
+      font-size: 1.5rem;
+      max-width: 8rem;
+      padding: 1rem;
+      text-align: center;
+      margin-left: auto;
+      margin-right: 0; } }
+
 .first-section {
   padding-top: 1.4rem; }
   .first-section .container {
@@ -271,7 +285,8 @@ button {
     justify-content: space-between; }
   .first-section__img {
     position: absolute;
-    right: 6.5rem; }
+    right: 6.5rem;
+    max-width: 40vw; }
 
 .healthy-skin {
   max-width: 50rem;
@@ -285,7 +300,6 @@ button {
     font-size: 1.8rem;
     line-height: 178%;
     max-width: 48.5rem;
-    padding-bottom: 0;
     padding-bottom: 2.2rem; }
   .healthy-skin__button {
     font-weight: bold;
@@ -315,3 +329,50 @@ button {
   padding-left: 0.9rem;
   margin-right: 7.2rem;
   border: none; }
+
+@media screen and (max-width: 1024px) {
+  .healthy-skin {
+    padding-top: 4rem;
+    max-width: 43rem;
+    padding-left: 4rem; }
+    .healthy-skin__answers {
+      font-size: 3.7rem;
+      margin-bottom: 4rem; }
+    .healthy-skin__button {
+      padding: 1.2rem 1rem;
+      min-width: 14rem; } }
+
+@media screen and (max-width: 768px) {
+  .healthy-skin {
+    padding-top: 2rem;
+    max-width: 37rem; }
+    .healthy-skin__answers {
+      font-size: 3.1rem;
+      margin-bottom: 2rem; }
+    .healthy-skin__skincare {
+      font-size: 1.65rem; }
+    .healthy-skin__button {
+      font-size: 1.4rem;
+      min-width: 9.3rem; } }
+
+@media screen and (max-width: 576px) {
+  .healthy-skin {
+    max-width: 29rem; }
+    .healthy-skin__answers {
+      font-size: 2rem; }
+    .healthy-skin__skincare {
+      font-size: 1.4rem;
+      padding-bottom: 1.2rem; }
+    .healthy-skin__button {
+      font-size: 1.4rem;
+      min-width: 5.3rem;
+      padding: 0.6rem 1rem; }
+  .email {
+    display: inline-block;
+    max-width: 22rem;
+    text-align: center;
+    padding: 0.6rem; }
+  #email {
+    text-align: center;
+    margin: 0;
+    padding: 0 0 1rem 0; } }
