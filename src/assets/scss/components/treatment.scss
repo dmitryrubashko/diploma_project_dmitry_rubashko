@@ -1,0 +1,48 @@
+.treatment {
+    padding-top: 37.2rem;
+
+    .container {
+        position: relative;
+    }
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__info {
+        padding-top: 8.8rem;
+        padding-right: 22.4rem;
+    }
+}
+
+h3 {
+    font-size: 4rem;
+    line-height: 117%;
+    text-align: center;
+    max-width: 70rem;
+    margin: auto;
+    font-weight: normal;
+    padding-bottom: 6.8rem;
+}
+
+.item {
+    &__img {
+        margin-left: -1.6rem;
+        margin-bottom: -2.4rem;
+    }   
+    
+    &__title {
+        font-size: 2rem;
+        line-height: 160%;
+        padding-bottom: 2.3rem;
+    }
+
+    &__text {
+        font-size: 1.8rem;
+        line-height: 178%;
+        color: rgba(7, 19, 48, 0.6);
+        max-width: 54rem;
+    }
+}
+

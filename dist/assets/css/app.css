@@ -406,7 +406,8 @@ button {
 h2 {
   font-size: 1.6rem;
   line-height: 125%;
-  color: #3D55F9; }
+  color: #3D55F9;
+  font-weight: normal; }
 
 @media screen and (max-width: 1024px) {
   .eczema {
@@ -448,3 +449,38 @@ h2 {
     padding-bottom: 1.5rem; }
   h2 {
     font-size: 1.5rem; } }
+
+.treatment {
+  padding-top: 37.2rem; }
+  .treatment .container {
+    position: relative; }
+  .treatment__row {
+    display: flex;
+    flex-wrap: wrap; }
+  .treatment__info {
+    padding-top: 8.8rem;
+    padding-right: 22.4rem; }
+
+h3 {
+  font-size: 4rem;
+  line-height: 117%;
+  text-align: center;
+  max-width: 70rem;
+  margin: auto;
+  font-weight: normal;
+  padding-bottom: 6.8rem; }
+
+.item__img {
+  margin-left: -1.6rem;
+  margin-bottom: -2.4rem; }
+
+.item__title {
+  font-size: 2rem;
+  line-height: 160%;
+  padding-bottom: 2.3rem; }
+
+.item__text {
+  font-size: 1.8rem;
+  line-height: 178%;
+  color: rgba(7, 19, 48, 0.6);
+  max-width: 54rem; }
