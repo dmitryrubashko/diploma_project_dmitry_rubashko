@@ -4,20 +4,30 @@
 .first-section {
     padding-top: 1.4rem;
 
+    .container {
+        position: relative;
+    }
+
     &__row {
         display: flex;
         justify-content: space-between;
     }
+
+    &__img {
+        position: absolute;
+        right: 6.5rem;
+    }
 }
 
 .healthy-skin {
+    max-width: 50rem;
     padding-top: 11.2rem;
 
     &__answers {
         font-size: 4.3rem;
         line-height: 115%;
         font-weight: normal;
-        padding-bottom: 8.2rem;
+        margin-bottom: 8.2rem;
     }
 
     &__skincare {
@@ -25,16 +35,18 @@
         line-height: 178%;
         max-width: 48.5rem;
         padding-bottom: 0;
-        margin-bottom: 1.9rem;
+        padding-bottom: 2.2rem;
     }
 
     &__button {
         font-weight: bold;
         font-size: 1.6rem;
         line-height: 125%;
-        text-align: center;
         color: #FFFFFF;
-        padding: 2.4rem 2rem;
+        background-color: $c-secondary;
+        padding: 1.9rem 3rem;
+        min-width: 17.3rem;
+        border-radius: 1.2rem;
     }
 
 }
@@ -42,12 +54,12 @@
 .email {
     display: flex;
     align-items: center;
-    background-color: red;
-    padding: 1rem 2rem;
+    background-color: #FFFFFF;
+    padding: 1.2rem 1.2rem 1.2rem 2rem;
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
-    box-shadow: 0px 8px 24px rgba(7, 19, 48, 0.06);
     border-radius: 2rem;
+    box-shadow: 0px 8px 24px rgba(7, 19, 48, 0.06);
 }
 
 #email {
@@ -56,6 +68,7 @@
     line-height: 106%;
     max-width: 25rem;
     padding-left: 0.9rem;
-    margin-right: 7.5rem;
+    margin-right: 7.2rem;
+    border: none;
 }
 

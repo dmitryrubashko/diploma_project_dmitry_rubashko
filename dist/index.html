@@ -10,9 +10,7 @@
   <body class="wrapper">
     <header class="header"> 
       <div class="container">
-        <div class="header__row"><a class="logo" href="#"><img class="logo__img" src="./assets/imgs/logo.svg" alt="Logo"><a class="link-header link-header--left" href="#">For Patients</a><a class="link-header" href="#">For Doctors</a></a>
-          <div class="header__links"><a class="link-header link-header--right" href="#">Request Invite  </a></div>
-        </div>
+        <div class="header__row"><a class="logo" href="#"><img class="logo__img" src="./assets/imgs/logo.svg" alt="Logo"><a class="link-header" href="#">For Patients</a><a class="link-header" href="#">For Doctors</a><a class="link-header link-header--right" href="#">Request Invite  </a></a></div>
       </div>
     </header>
     <section class="first-section">
@@ -21,11 +19,16 @@
           <div class="healthy-skin">
             <h1 class="healthy-skin__answers">Finally get the answers needed for healthy skin</h1>
             <p class="healthy-skin__skincare">Remmy helps you uncover the most effective skin care treatments by letting you test and track products with others.</p>
-            <div class="email"><span> 
-                <input type="email" id="email" value="Enter email..."></span><a class="healthy-skin__button" href="#">Request Invite </a></div>
-          </div><img src="./assets/imgs/girl.png" alt="nicegirl">
+            <form class="email" action="URL"> 
+              <input type="email" id="email" value="Enter email...">
+              <button class="healthy-skin__button" name="button">Request Invite</button>
+            </form>
+          </div><img class="first-section__img" src="./assets/imgs/girl.png" alt="nicegirl">
         </div>
       </div>
+    </section>
+    <section class="first-section">
+      <div class="container"></div>
     </section>
   </body>
 </html>

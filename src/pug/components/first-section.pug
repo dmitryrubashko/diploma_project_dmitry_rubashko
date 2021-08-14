@@ -4,8 +4,7 @@ section.first-section
             div.healthy-skin
                 h1.healthy-skin__answers Finally get the answers needed for healthy skin
                 p.healthy-skin__skincare Remmy helps you uncover the most effective skin care treatments by letting you test and track products with others.
-                div.email
-                    span 
-                        input(type='email' id="email" value='Enter email...')
-                    a(href="#").healthy-skin__button Request Invite 
-            img(src="./assets/imgs/girl.png", alt="nicegirl")
+                form(action="URL").email 
+                    input(type='email' id="email" value='Enter email...')
+                    button(name='button').healthy-skin__button Request Invite
+            img(src="./assets/imgs/girl.png", alt="nicegirl").first-section__img 
