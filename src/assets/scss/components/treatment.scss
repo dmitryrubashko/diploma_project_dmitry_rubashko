@@ -37,6 +37,8 @@ h3 {
         text-align: center;
         background-color: $c-secondary;
         padding-top: 1.3rem;
+        margin-left: 0.1rem;
+        margin-bottom: 2.3rem;
     }   
     
     &__title {
@@ -52,11 +54,100 @@ h3 {
         max-width: 54rem;
     }
 
-    &__number {
-        margin-left: 0.1rem;
-        margin-bottom: 2.3rem;
-    }
 }
 
+@media screen and (max-width: $md) {
+    .treatment {
+        padding-top: 2rem;
+
+        &__info {
+            max-width: 70rem;
+            padding-right: 5rem;
+            margin-left: auto;
+        }
+
+        &__row {
+            justify-content: space-between;
+        }
+
+        &__img {
+            padding-left: 0rem;
+        }
+    }
+    
+    h3 {
+        font-size: 2.8rem;
+        padding-bottom: 3.3rem;      
+    }  
+}
+
+@media screen and (max-width: $sm) {
+    .treatment {
+        padding-top: 0.5rem;
+        
+        &__info {
+            margin-right: auto;
+            max-width: 53%;
+            padding-left: 5rem;
+        }
+    }
+
+    .item {
+        &__number {
+            max-width: 4.2rem;
+            min-height: 4.2rem;
+            padding-top: 0.6rem;
+        }
+
+        &__title {
+           padding-bottom: 1rem;
+           font-size: 1.8rem;
+        }
+
+        &__text {
+            font-size: 1.5rem;
+        }
+    };
+}
+
+@media screen and (max-width: $xs) {
+    h3 {
+        font-size: 2.4rem;
+        padding-bottom: 3.3rem;      
+    }
+
+    .treatment {
+        &__info {   
+            margin-left: 0;
+            max-width: 21rem;
+            padding-left: 2rem;  
+            padding-right: 0rem;
+            margin-right: 0;
+        }
+
+        &__img {   
+            width: 20rem;
+            position: relative; 
+            right: 13rem;   
+        }
+
+    }
+
+    .item {
+        &__title {
+            font-size: 1.6rem; 
+        }
+
+        &__text {
+            font-size: 1.4rem; 
+        }
+
+        &__number {
+            max-width: 3.6rem;
+            min-height: 3.6rem;
+            padding-top: 0.3rem;
+        }
+    }
+}
 
 
