@@ -1,4 +1,4 @@
-.advices {
+.acne {
     padding-top: 11.7rem;
 
     .container {
@@ -18,15 +18,10 @@
         
     }
 
-    .advices {
-        &__img {
-            padding-left: 6.3rem;
-        }
-        
+    &__img {
+        padding-left: 6.3rem;
     }
-}
-
-.item {
+    
     &__theme {
         font-size: 1.6rem;
         line-height: 125%;
@@ -53,5 +48,154 @@
         font-size: 1.8rem;
         line-height: 178%;
     }
+
 }
+
+.h-acid {
+    .container {
+        position: relative;
+    }
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 13.5rem;
+    }
+
+    &__theme {
+        font-size: 1.6rem;
+        line-height: 125%;
+        color: $c-secondary;
+        margin-top: 11.7rem;
+        padding-bottom: 1.9rem;
+    }
+
+    &__title {
+        font-size: 4rem;
+        line-height: 117%;
+        padding-bottom: 4rem;
+        max-width: 35rem;   
+    }
+
+    &__text1 {
+        font-size: 1.8rem;
+        line-height: 178%;
+        padding-bottom: 2.8rem;
+        
+    }
+
+    &__text2 {
+        
+        font-size: 1.8rem;
+        line-height: 178%;
+    }
+
+    &__info {
+        margin-left: 6.5rem;
+        max-width: 47rem;
+    }
+
+    &__img {
+        margin-left: 18.6rem;
+    }
+}
+
+.notes {
+
+    .container {
+        position: relative;
+    }
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10.7rem;
+    }
+
+    &__info {
+        max-width: 47rem;
+        margin-top: 0;
+        margin-left: 23.3rem;
+        
+    }
+
+    &__img {
+        padding-left: 6.3rem;
+    }
+    
+    &__theme {
+        font-size: 1.6rem;
+        line-height: 125%;
+        color: $c-secondary;
+        margin-top: 4.4rem;
+        padding-bottom: 2rem;
+    }
+
+    &__title {
+        font-size: 4rem;
+        line-height: 117%;
+        padding-bottom: 2.8rem;
+        max-width: 43rem;
+    }
+
+    &__text1 {
+        font-size: 1.8rem;
+        line-height: 178%;
+        padding-bottom: 3.3rem;
+        max-width: 43rem;
+    }
+
+    &__text2 {
+        max-width: 44rem;
+        font-size: 1.8rem;
+        line-height: 178%;
+
+    }
+
+}
+
+.research {
+    margin-top: 0.6rem;
+
+    &__row {
+        align-items: center;
+        margin-top: 0.6rem;
+    }
+
+    &__img {
+        display: inline-block;
+    }
+
+    &__text {
+        display: inline-block;
+        font-size: 2rem;
+        line-height: 160%;
+        padding-bottom: 0.8rem;
+        padding-left: 2.4rem;
+    }
+
+}
+
+.discovering {
+    
+
+    &__row {
+        align-items: center;
+        margin-top: 4.8rem;
+    }
+
+    &__img {
+        display: inline-block;
+    }
+
+    &__text {
+        display: inline-block;
+        font-size: 2rem;
+        line-height: 160%;
+        padding-bottom: 0.8rem;
+        padding-left: 2.4rem;
+    }
+
+}
+
 
