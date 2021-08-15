@@ -740,3 +740,102 @@ h4 {
   line-height: 160%;
   padding-bottom: 0.8rem;
   padding-left: 2.4rem; }
+
+@media screen and (max-width: 1024px) {
+  .acne {
+    padding-top: 2rem; }
+    .acne__info {
+      margin-left: 1rem; }
+    .acne__title {
+      font-size: 3rem; }
+    .acne__text1, .acne__text2 {
+      font-size: 1.6rem; }
+  .h-acid__row {
+    margin-top: 1rem; }
+  .h-acid__img {
+    margin-left: 1rem; }
+  .h-acid__title {
+    font-size: 3rem; }
+  .h-acid__text1, .h-acid__text2 {
+    font-size: 1.6rem; }
+  .notes__row {
+    margin-top: 1rem; }
+  .notes__info {
+    margin-left: 1rem; }
+  .notes__title {
+    font-size: 3rem; }
+  .notes__text1, .notes__text2 {
+    font-size: 1.6rem; } }
+
+@media screen and (max-width: 768px) {
+  .acne__info {
+    max-width: 30rem; }
+  .acne__title {
+    font-size: 2.5rem; }
+  .acne__text1, .acne__text2 {
+    font-size: 1.5rem; }
+  .h-acid__img {
+    margin-left: 1rem; }
+  .h-acid__info {
+    max-width: 30rem; }
+  .h-acid__title {
+    font-size: 2.5rem; }
+  .h-acid__text1, .h-acid__text2 {
+    font-size: 1.5rem; }
+  .notes__info {
+    max-width: 30rem; }
+  .notes__title {
+    font-size: 2.5rem; }
+  .notes__text1, .notes__text2 {
+    font-size: 1.5rem; }
+  .research__text, .discovering__text {
+    font-size: 1.5rem; } }
+
+@media screen and (max-width: 576px) {
+  .acne__img {
+    max-width: 25rem;
+    padding-left: 0; }
+  .acne__img-acne {
+    width: 100%;
+    padding-left: 0; }
+  .acne__info {
+    max-width: 27rem; }
+  .acne__title {
+    font-size: 1.8rem;
+    padding-bottom: 1rem; }
+  .acne__text1, .acne__text2 {
+    font-size: 1.2rem;
+    padding-bottom: 1rem; }
+  .h-acid__img {
+    max-width: 25rem;
+    padding-left: 0; }
+  .h-acid__img-acne {
+    width: 100%;
+    padding-left: 0; }
+  .h-acid__info {
+    max-width: 27rem;
+    margin-left: 1rem; }
+  .h-acid__title {
+    font-size: 1.8rem;
+    padding-bottom: 1rem; }
+  .h-acid__text1, .h-acid__text2 {
+    font-size: 1.2rem;
+    padding-bottom: 1rem; }
+  .notes__img {
+    max-width: 25rem;
+    padding-left: 0; }
+  .notes__img-notes {
+    width: 100%;
+    padding-left: 0; }
+  .notes__info {
+    max-width: 27rem; }
+  .notes__title {
+    font-size: 1.8rem;
+    padding-bottom: 1rem; }
+  .notes__text1, .notes__text2 {
+    font-size: 1.2rem;
+    padding-bottom: 1rem; }
+  .research__text, .discovering__text {
+    font-size: 1.4rem; }
+  .research__row, .discovering__row {
+    margin-top: 1rem; } }

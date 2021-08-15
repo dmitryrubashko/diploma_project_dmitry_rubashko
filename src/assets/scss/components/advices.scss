@@ -177,8 +177,6 @@
 }
 
 .discovering {
-    
-
     &__row {
         align-items: center;
         margin-top: 4.8rem;
@@ -198,4 +196,200 @@
 
 }
 
+@media screen and (max-width: $md) {
+    .acne {
+        padding-top: 2rem;
 
+        &__info {
+            margin-left: 1rem;
+        }
+
+        &__title {
+            font-size: 3rem;
+        }
+
+        &__text1, &__text2 {
+            font-size: 1.6rem;
+        }
+    }
+
+    .h-acid {
+        &__row {
+            margin-top: 1rem;
+        }
+
+        &__img {
+            margin-left: 1rem;
+        }
+
+        &__title {
+            font-size: 3rem;
+        }
+
+        &__text1, &__text2 {
+            font-size: 1.6rem;
+        }
+    }
+
+    .notes {
+
+        &__row {
+            margin-top: 1rem;
+        }
+
+        &__info {
+            margin-left: 1rem;
+        }
+
+        &__title {
+            font-size: 3rem;
+        }
+
+        &__text1, &__text2 {
+            font-size: 1.6rem;
+        }
+    }
+
+}
+
+@media screen and (max-width: $sm) {
+    .acne {
+        &__info {
+            max-width: 30rem;    
+        }
+
+        &__title {
+            font-size: 2.5rem;
+        }
+
+        &__text1, &__text2 {
+            font-size: 1.5rem;
+        }
+    }
+
+    .h-acid {
+        &__img {
+            margin-left: 1rem;
+        }
+
+        &__info {
+            max-width: 30rem;    
+        }
+
+        &__title {
+            font-size: 2.5rem;
+        }
+
+        &__text1, &__text2 {
+            font-size: 1.5rem;
+        }
+    }
+
+    .notes {
+        &__info {
+            max-width: 30rem;    
+        }
+
+        &__title {
+            font-size: 2.5rem;
+        }
+
+        &__text1, &__text2 {
+            font-size: 1.5rem;
+        }
+    }
+
+    .research__text, .discovering__text {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: $xs) {
+    .acne {
+        &__img {
+            max-width: 25rem;
+            padding-left: 0;
+        }
+
+        &__img-acne {
+            width: 100%;
+            padding-left: 0;
+        }
+
+        &__info {
+            max-width: 27rem;
+        }
+
+        &__title {
+            font-size: 1.8rem;
+            padding-bottom: 1rem;
+        }
+
+        &__text1, &__text2 {
+            font-size: 1.2rem;
+            padding-bottom: 1rem;
+        }
+    }
+    
+    .h-acid {
+        &__img {
+            max-width: 25rem;
+            padding-left: 0;
+        }
+
+        &__img-acne {
+            width: 100%;
+            padding-left: 0;
+        }
+
+        &__info {
+            max-width: 27rem;
+            margin-left: 1rem;
+        }
+
+        &__title {
+            font-size: 1.8rem;
+            padding-bottom: 1rem;
+        }
+
+        &__text1, &__text2 {
+            font-size: 1.2rem;
+            padding-bottom: 1rem;
+        }
+    }
+
+    .notes {
+        &__img {
+            max-width: 25rem;
+            padding-left: 0;
+        }
+
+        &__img-notes {
+            width: 100%;
+            padding-left: 0;
+        }
+
+        &__info {
+            max-width: 27rem;
+        }
+
+        &__title {
+            font-size: 1.8rem;
+            padding-bottom: 1rem;
+        }
+
+        &__text1, &__text2 {
+            font-size: 1.2rem;
+            padding-bottom: 1rem;
+        }
+    }
+    
+    .research__text, .discovering__text {
+        font-size: 1.4rem;
+        
+    }
+
+    .research__row, .discovering__row {
+        margin-top: 1rem;
+    }
+}
