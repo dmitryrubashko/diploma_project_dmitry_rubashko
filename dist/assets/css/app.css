@@ -839,3 +839,51 @@ h4 {
     font-size: 1.4rem; }
   .research__row, .discovering__row {
     margin-top: 1rem; } }
+
+.aboutremmy {
+  padding-top: 15.2rem; }
+  .aboutremmy__title {
+    font-size: 1.6rem;
+    line-height: 125%;
+    text-align: center;
+    color: #3D55F9; }
+  .aboutremmy__text {
+    margin-top: 2rem;
+    font-size: 4rem;
+    line-height: 117%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 47rem; }
+  .aboutremmy__description {
+    font-size: 1.2rem;
+    line-height: 267%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 49rem;
+    margin-top: 3.5rem; }
+  .aboutremmy__row {
+    margin-top: 11.3rem;
+    display: flex;
+    flex-wrap: wrap; }
+  .aboutremmy__violet {
+    position: absolute;
+    margin-left: -57rem;
+    margin-top: 47.9rem; }
+  .aboutremmy__title-new {
+    font-size: 2rem;
+    line-height: 160%; }
+  .aboutremmy__text-new {
+    font-size: 1.8rem;
+    line-height: 178%;
+    padding-top: 2.3rem; }
+  .aboutremmy__info {
+    max-width: 42rem;
+    margin-left: 12.9rem;
+    padding-top: 4.2rem; }
+  .aboutremmy__item {
+    margin-left: -2.4rem;
+    margin-bottom: -1.3rem; }
+  .aboutremmy__love {
+    margin-top: 6.1rem; }
