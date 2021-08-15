@@ -1,0 +1,13 @@
+section.advices
+    div.container
+        mixin item(img, theme, title, text1, text2)
+            div.advices__row
+                div.advices__img
+                    img(src=img, alt=theme)
+                div.advices__info
+                    p.item__theme=theme
+                    p.item__title=title
+                    p.item__text1=text1
+                    p.item__text2=text2
+        +item('./assets/imgs/acne2.png', 'Tracking', 'Track Your Improvement', 'Remmy helps people track their skin conditions over time so you can better understand what helps your skin and what makes it worse.', 'This is powered by our proprietary algorithm that not only tracks your condition, but also measures the effectiveness of the various treatments and products you’re currently using.')
+        +item('./assets/imgs/h-acid.png', 'Treatments', 'Find Treatments That Actually Work', 'Get access to already proven therapies for psoriasis, eczema, acne, and many other skin conditions.', "Remmy helps people find the most effective treatments, remedies, and products, so you’re not wasting time and money on the ones that don’t work.")

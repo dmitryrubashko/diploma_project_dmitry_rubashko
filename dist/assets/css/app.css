@@ -603,3 +603,39 @@ h4 {
     font-size: 1.5rem; }
   .robynkutka__info {
     font-size: 1.6rem; } }
+
+.advices {
+  padding-top: 11.7rem; }
+  .advices .container {
+    position: relative; }
+  .advices__row {
+    display: flex;
+    flex-wrap: wrap; }
+  .advices__info {
+    max-width: 47rem;
+    margin-top: 0;
+    margin-left: 23.3rem; }
+  .advices .advices__img {
+    padding-left: 6.3rem; }
+
+.item__theme {
+  font-size: 1.6rem;
+  line-height: 125%;
+  color: #3D55F9;
+  margin-top: 10.7rem;
+  padding-bottom: 1.5rem; }
+
+.item__title {
+  font-size: 4rem;
+  line-height: 117%;
+  padding-bottom: 4rem; }
+
+.item__text1 {
+  font-size: 1.8rem;
+  line-height: 178%;
+  padding-bottom: 3.3rem; }
+
+.item__text2 {
+  max-width: 44rem;
+  font-size: 1.8rem;
+  line-height: 178%; }

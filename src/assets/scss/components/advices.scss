@@ -1,0 +1,57 @@
+.advices {
+    padding-top: 11.7rem;
+
+    .container {
+        position: relative;
+    }
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    &__info {
+        max-width: 47rem;
+        margin-top: 0;
+        margin-left: 23.3rem;
+        
+    }
+
+    .advices {
+        &__img {
+            padding-left: 6.3rem;
+        }
+        
+    }
+}
+
+.item {
+    &__theme {
+        font-size: 1.6rem;
+        line-height: 125%;
+        color: $c-secondary;
+        margin-top: 10.7rem;
+        padding-bottom: 1.5rem;
+    }
+
+    &__title {
+        font-size: 4rem;
+        line-height: 117%;
+        padding-bottom: 4rem;
+    }
+
+    &__text1 {
+        font-size: 1.8rem;
+        line-height: 178%;
+        padding-bottom: 3.3rem;
+        
+    }
+
+    &__text2 {
+        max-width: 44rem;
+        font-size: 1.8rem;
+        line-height: 178%;
+    }
+}
+
