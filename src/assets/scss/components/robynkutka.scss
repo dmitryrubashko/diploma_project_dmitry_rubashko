@@ -1,0 +1,43 @@
+.robynkutka {
+    .container {
+        position: relative;
+    }
+
+    &__about {
+        margin-top: 6.2rem;
+        margin-left: 35rem;
+    }
+
+    &__info {
+        font-size: 1.8rem;
+        line-height: 178%;
+        color: rgba(7, 19, 48, 0.6);
+        font-style: normal;
+        font-weight: normal;
+        margin-bottom: 2.1rem;
+        display: inline-block;
+        margin-left: 1.3rem;
+    }
+
+    &__img {
+        padding-top: 2rem;
+        display: inline-block;
+  
+    }
+
+}
+
+
+
+h4 {
+    font-size: 2.7rem;
+    line-height: 207%;
+    text-align: center;
+    color: $c-text2;
+    font-weight: normal;
+    max-width: 69rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 23.2rem;
+    padding-left: 6.1rem;
+}
