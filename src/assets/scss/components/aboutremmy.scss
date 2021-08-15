@@ -1,6 +1,10 @@
 .aboutremmy {
     padding-top: 15.2rem;
 
+    .container {
+        position: relative;
+    }
+
     &__title {
         font-size: 1.6rem;
         line-height: 125%;
@@ -67,5 +71,113 @@
     }
     
     
+}
+
+@media screen and (max-width: $md) {
+    .aboutremmy {
+        padding-top: 0;
+
+        &__text {
+            font-size: 3rem;
+            max-width: 40rem;
+        }
+
+        &__row {
+            margin-top: 3rem;
+        }
+
+        &__info {
+            max-width: 40rem;
+            margin-left: 2rem;
+        }
+
+        &__violet {
+            margin-left: -52rem;
+        }
+
+        &__title-new {
+            font-size: 1.8rem;    
+        }
+    
+        &__text-new {
+            font-size: 1.6rem;   
+        }
+    }
+}
+
+@media screen and (max-width: $sm) {
+    .aboutremmy {
+        &__man {
+            width: 28rem;
+        }
+
+        &__violet {
+            width: 20rem;
+            margin-left: -27rem;
+            margin-top: 30rem;
+        }
+
+        &__info {
+            max-width: 42rem;
+            margin-left: 2rem;
+            padding-top: 0;
+        }
+
+        &__title-new {
+            font-size: 1.5rem;    
+        }
+    
+        &__text-new {
+            font-size: 1.4rem;
+            padding-top: 0.2rem;  
+        }
+
+        &__item {
+            width: 6rem;
+            margin-left: -1.3rem;
+        }
+
+        &__love {
+            margin-top: 3rem;
+        }
+    }
+}
+
+@media screen and (max-width: $xs) {
+    .aboutremmy {
+        &__man {
+            width: 18rem;
+        }
+
+        &__violet {
+            width: 13rem;
+            margin-left: -17rem;
+            margin-top: 19rem;
+        }
+
+        &__info {
+            max-width: 34rem;
+            margin-left: 2rem;
+            padding-top: 0;
+        }
+
+        &__title-new {
+            font-size: 1.3rem;    
+        }
+    
+        &__text-new {
+            font-size: 1.2rem;
+            padding-top: 0.2rem;  
+        }
+
+        &__item {
+            width: 3.5rem;
+            margin-left: -0.8rem;
+        }
+
+        &__love {
+            margin-top: 0rem;
+        }
+    }
 }
 

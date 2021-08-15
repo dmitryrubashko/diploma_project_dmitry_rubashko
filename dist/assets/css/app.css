@@ -842,6 +842,8 @@ h4 {
 
 .aboutremmy {
   padding-top: 15.2rem; }
+  .aboutremmy .container {
+    position: relative; }
   .aboutremmy__title {
     font-size: 1.6rem;
     line-height: 125%;
@@ -887,3 +889,65 @@ h4 {
     margin-bottom: -1.3rem; }
   .aboutremmy__love {
     margin-top: 6.1rem; }
+
+@media screen and (max-width: 1024px) {
+  .aboutremmy {
+    padding-top: 0; }
+    .aboutremmy__text {
+      font-size: 3rem;
+      max-width: 40rem; }
+    .aboutremmy__row {
+      margin-top: 3rem; }
+    .aboutremmy__info {
+      max-width: 40rem;
+      margin-left: 2rem; }
+    .aboutremmy__violet {
+      margin-left: -52rem; }
+    .aboutremmy__title-new {
+      font-size: 1.8rem; }
+    .aboutremmy__text-new {
+      font-size: 1.6rem; } }
+
+@media screen and (max-width: 768px) {
+  .aboutremmy__man {
+    width: 28rem; }
+  .aboutremmy__violet {
+    width: 20rem;
+    margin-left: -27rem;
+    margin-top: 30rem; }
+  .aboutremmy__info {
+    max-width: 42rem;
+    margin-left: 2rem;
+    padding-top: 0; }
+  .aboutremmy__title-new {
+    font-size: 1.5rem; }
+  .aboutremmy__text-new {
+    font-size: 1.4rem;
+    padding-top: 0.2rem; }
+  .aboutremmy__item {
+    width: 6rem;
+    margin-left: -1.3rem; }
+  .aboutremmy__love {
+    margin-top: 3rem; } }
+
+@media screen and (max-width: 576px) {
+  .aboutremmy__man {
+    width: 18rem; }
+  .aboutremmy__violet {
+    width: 13rem;
+    margin-left: -17rem;
+    margin-top: 19rem; }
+  .aboutremmy__info {
+    max-width: 34rem;
+    margin-left: 2rem;
+    padding-top: 0; }
+  .aboutremmy__title-new {
+    font-size: 1.3rem; }
+  .aboutremmy__text-new {
+    font-size: 1.2rem;
+    padding-top: 0.2rem; }
+  .aboutremmy__item {
+    width: 3.5rem;
+    margin-left: -0.8rem; }
+  .aboutremmy__love {
+    margin-top: 0rem; } }
