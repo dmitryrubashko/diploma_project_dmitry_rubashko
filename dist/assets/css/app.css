@@ -951,3 +951,110 @@ h4 {
     margin-left: -0.8rem; }
   .aboutremmy__love {
     margin-top: 0rem; } }
+
+.conditions {
+  padding-top: 24rem; }
+  .conditions .container {
+    position: relative; }
+  .conditions__title {
+    font-size: 1.6rem;
+    line-height: 125%;
+    text-align: center;
+    color: #3D55F9; }
+  .conditions__text {
+    margin-top: 1.5rem;
+    font-size: 4rem;
+    line-height: 117%;
+    text-align: center; }
+  .conditions__description {
+    font-size: 1.8rem;
+    line-height: 178%;
+    text-align: center;
+    margin-top: 3.2rem; }
+  .conditions__newtext {
+    padding-top: 3.4rem;
+    font-size: 1.6rem;
+    line-height: 119%; }
+  .conditions__img-light-blue {
+    background-color: #7FDDF0;
+    padding: 0.5rem;
+    border-radius: 100%; }
+  .conditions__img-blue {
+    background-color: #5FAEEC;
+    padding: 0.5rem;
+    border-radius: 100%; }
+  .conditions__img-violet {
+    background-color: #9B78FD;
+    padding: 0.5rem;
+    border-radius: 100%; }
+  .conditions__img-pink {
+    background-color: #EF9CD0;
+    padding: 0.5rem;
+    border-radius: 100%; }
+  .conditions__img-orange {
+    background-color: #F6845E;
+    padding: 0.5rem;
+    border-radius: 100%; }
+  .conditions__img-orange-light {
+    background-color: #F9B65E;
+    padding: 0.5rem;
+    border-radius: 100%; }
+  .conditions__img-yellow {
+    background-color: #FFDD57;
+    padding: 0.5rem;
+    border-radius: 100%; }
+  .conditions__img-green-light {
+    background-color: #ABE050;
+    padding: 0.5rem;
+    border-radius: 100%; }
+  .conditions__img-green {
+    background-color: #7BCFA6;
+    padding: 0.5rem;
+    border-radius: 100%; }
+  .conditions__img-grey {
+    background-color: #B5B8C1;
+    padding: 0.5rem;
+    border-radius: 100%; }
+
+.item1 {
+  grid-area: header10; }
+
+.conditions-grid {
+  padding-top: 12.1rem;
+  display: grid;
+  grid-template-areas: 'header1 header2 header3 header4 header5 header6' 'header7 header8 header9 header10 header10 header10';
+  grid-gap: 3.1rem; }
+
+.item {
+  padding-top: 0.4rem;
+  padding-left: 1.3rem;
+  font-size: 30px;
+  border-radius: 12px;
+  height: 10.4rem;
+  width: 15.8rem; }
+  .item--light-blue {
+    background-color: rgba(127, 221, 240, 0.1); }
+  .item--blue {
+    background-color: rgba(95, 174, 236, 0.1); }
+  .item--violet {
+    background-color: rgba(155, 120, 253, 0.08); }
+  .item--pink {
+    background-color: rgba(239, 156, 208, 0.1); }
+  .item--orange {
+    background-color: rgba(246, 132, 94, 0.1); }
+  .item--orange-light {
+    background-color: rgba(249, 182, 94, 0.1); }
+  .item--yellow {
+    background-color: rgba(255, 221, 87, 0.1); }
+  .item--green-light {
+    background-color: rgba(171, 224, 80, 0.1); }
+  .item--green {
+    background-color: rgba(123, 207, 166, 0.1); }
+
+.item1 {
+  padding-top: 0.4rem;
+  padding-left: 1.3rem;
+  font-size: 30px;
+  border-radius: 12px;
+  height: 10.4rem;
+  background-color: #F7F8FC; }
