@@ -1,10 +1,11 @@
 .footer {
-    .container {
-        position: relative;
-    }
 
     margin-top: 24.5rem;
     margin-bottom: 1.5rem;
+
+    .container {
+        position: relative;
+    }
 
     &__flex {
         display: flex;
@@ -26,5 +27,28 @@
 
     &__contact {
         margin-left: 52rem;
+    }
+}
+
+@media screen and (max-width: $md) {
+
+    .footer {
+        margin-top: 5rem;
+
+        &__contact {
+            margin-left: auto;
+        }
+    }
+  
+}
+
+@media screen and (max-width: $xs) {
+    .footer {
+        margin-top: 3rem;
+
+        &__contactinfo {
+            margin-left: 1rem;
+            padding: 0.4rem;
+        }
     }
 }
