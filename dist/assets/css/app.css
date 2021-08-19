@@ -1082,3 +1082,23 @@ h4 {
 @media screen and (max-width: 576px) {
   .conditions-grid {
     grid-template-areas: 'header1 header2 header3' 'header4 header5 header6' 'header7 header8 header9' 'header10 header10 header10'; } }
+
+.footer {
+  margin-top: 24.5rem;
+  margin-bottom: 1.5rem; }
+  .footer .container {
+    position: relative; }
+  .footer__flex {
+    display: flex;
+    align-items: center; }
+  .footer__text {
+    font-size: 1.2rem;
+    line-height: 120%;
+    color: rgba(7, 19, 48, 0.5); }
+  .footer__contactinfo {
+    font-size: 1.5rem;
+    line-height: 120%;
+    color: rgba(7, 19, 48, 0.5);
+    margin-left: 4rem; }
+  .footer__contact {
+    margin-left: 52rem; }

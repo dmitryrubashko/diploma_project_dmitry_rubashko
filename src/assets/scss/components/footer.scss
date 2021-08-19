@@ -1,3 +1,30 @@
 .footer {
-    
+    .container {
+        position: relative;
+    }
+
+    margin-top: 24.5rem;
+    margin-bottom: 1.5rem;
+
+    &__flex {
+        display: flex;
+        align-items: center;
+    }
+
+    &__text {
+        font-size: 1.2rem;
+        line-height: 120%;
+        color: rgba(7, 19, 48, 0.5);
+    }
+
+    &__contactinfo {
+        font-size: 1.5rem;
+        line-height: 120%;
+        color: rgba(7, 19, 48, 0.5);
+        margin-left: 4rem;
+    }
+
+    &__contact {
+        margin-left: 52rem;
+    }
 }
