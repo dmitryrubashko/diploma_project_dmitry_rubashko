@@ -36,9 +36,28 @@ padding: 1.5rem 0;
     }
 }
 
+@media screen and (max-width: $md) {
+    .link-header {
+        &--right {
+            margin-left: auto;
+        }
+    }
+}
+
+@media screen and (max-width: $sm) {
+    .header {
+       
+
+       .logo {
+            margin-right: 1rem;
+       }
+    }
+
+}
+
 @media screen and (max-width: $xs) {
     .logo {
-        margin-right: 2rem;       
+        width: 100%;      
     }
 
     .link-header {
@@ -47,11 +66,11 @@ padding: 1.5rem 0;
 
         &--right {
             font-size: 1.5rem;
-            max-width: 8rem;
             padding: 1rem;
             text-align: center;
             margin-left: auto;
             margin-right: 0;
+            margin-right: auto;
         }
     }
 }

@@ -263,19 +263,27 @@ button {
     margin-left: auto;
     margin-right: 0; }
 
+@media screen and (max-width: 1024px) {
+  .link-header--right {
+    margin-left: auto; } }
+
+@media screen and (max-width: 768px) {
+  .header .logo {
+    margin-right: 1rem; } }
+
 @media screen and (max-width: 576px) {
   .logo {
-    margin-right: 2rem; }
+    width: 100%; }
   .link-header {
     margin-right: 3.5rem;
     font-size: 1.8rem; }
     .link-header--right {
       font-size: 1.5rem;
-      max-width: 8rem;
       padding: 1rem;
       text-align: center;
       margin-left: auto;
-      margin-right: 0; } }
+      margin-right: 0;
+      margin-right: auto; } }
 
 .first-section {
   padding-top: 1.4rem; }
