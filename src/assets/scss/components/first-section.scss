@@ -77,7 +77,7 @@
     .healthy-skin {
         padding-top: 4rem;
         max-width: 43rem;
-        padding-left: 4rem;
+        padding-left: 6rem;
         
         &__answers {
             font-size: 3.7rem;
@@ -90,6 +90,11 @@
         }
     }
 
+    .first-section {
+        &__img {
+            right: 4rem;
+        }
+    }
 }
 
 @media screen and (max-width: $sm) {
@@ -111,6 +116,15 @@
             min-width: 9.3rem;
         }
     }
+
+    .first-section {
+        &__img {
+            right: 1rem;
+            width: 37vw;
+        }
+    }
+
+    
 
 }
 

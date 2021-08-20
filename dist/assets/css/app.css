@@ -268,8 +268,14 @@ button {
     margin-left: auto; } }
 
 @media screen and (max-width: 768px) {
-  .header .logo {
-    margin-right: 1rem; } }
+  .logo {
+    margin-right: 2rem; }
+    .logo__img {
+      margin-right: 0; }
+  .link-header {
+    margin-right: 2rem; }
+    .link-header--right {
+      margin-right: 0; } }
 
 @media screen and (max-width: 576px) {
   .logo {
@@ -282,8 +288,7 @@ button {
       padding: 1rem;
       text-align: center;
       margin-left: auto;
-      margin-right: 0;
-      margin-right: auto; } }
+      margin-right: 0; } }
 
 .first-section {
   padding-top: 1.4rem; }
@@ -344,13 +349,15 @@ button {
   .healthy-skin {
     padding-top: 4rem;
     max-width: 43rem;
-    padding-left: 4rem; }
+    padding-left: 6rem; }
     .healthy-skin__answers {
       font-size: 3.7rem;
       margin-bottom: 4rem; }
     .healthy-skin__button {
       padding: 1.2rem 1rem;
-      min-width: 14rem; } }
+      min-width: 14rem; }
+  .first-section__img {
+    right: 4rem; } }
 
 @media screen and (max-width: 768px) {
   .healthy-skin {
@@ -363,7 +370,10 @@ button {
       font-size: 1.65rem; }
     .healthy-skin__button {
       font-size: 1.4rem;
-      min-width: 9.3rem; } }
+      min-width: 9.3rem; }
+  .first-section__img {
+    right: 1rem;
+    width: 37vw; } }
 
 @media screen and (max-width: 576px) {
   .healthy-skin {
