@@ -3,6 +3,7 @@
 
 .eczema  {
     margin-top: 31.5rem;
+    margin-bottom: 7.8rem;
 
     .container {
         position: relative;
@@ -14,11 +15,13 @@
     }
 
     &__img {
-        padding-left: 6.2rem;     
+        padding-left: 6.2rem;
+        position: absolute;
+          
     }
 
     &__info {
-        margin-left: 23.4rem;
+        margin-left: auto;
         padding-top: 8.5rem;
         max-width: 47rem;
     }
@@ -50,13 +53,17 @@
         margin-top: 8rem;
 
         &__info {
-            margin-left: 10rem;
+            margin-left: auto;
             max-width: 38rem;
             padding-top: 7.5rem;
         }
 
         &__title {
             font-size: 3.5rem;  
+        }
+
+        &__img {
+            padding-left: 4rem;
         }
         
     }
@@ -68,12 +75,13 @@
 
         &__img {
             padding-left: 2rem;
+            max-width: 40%;
         }
 
         &__info {
             max-width: 32rem;
-            margin-left: 3rem;
-            padding-top: 5.5rem;
+            margin-left: auto;
+            padding-top: 1.5rem;
         }
 
         &__title {
@@ -82,8 +90,8 @@
         }
 
         &__text {
-            font-size: 1.6rem;
-            padding-bottom: 2rem;
+            font-size: 1.55rem;
+            padding-bottom: 1rem;
         }
     }
  }
@@ -91,12 +99,12 @@
  @media screen and (max-width: $xs) {
     .eczema {
         &__img {
-            padding-left: 2rem;
-            width: 50vw;
+            padding-left: 0;
+            width: 45%;
         }
 
         &__info {
-            max-width: 20rem;
+            max-width: 25rem;
         }
 
         &__title {

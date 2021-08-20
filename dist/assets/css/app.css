@@ -349,7 +349,7 @@ button {
   .healthy-skin {
     padding-top: 4rem;
     max-width: 43rem;
-    padding-left: 6rem; }
+    padding-left: 1rem; }
     .healthy-skin__answers {
       font-size: 3.7rem;
       margin-bottom: 4rem; }
@@ -398,16 +398,18 @@ button {
     padding: 0 0 1rem 0; } }
 
 .eczema {
-  margin-top: 31.5rem; }
+  margin-top: 31.5rem;
+  margin-bottom: 7.8rem; }
   .eczema .container {
     position: relative; }
   .eczema__row {
     display: flex;
     flex-wrap: wrap; }
   .eczema__img {
-    padding-left: 6.2rem; }
+    padding-left: 6.2rem;
+    position: absolute; }
   .eczema__info {
-    margin-left: 23.4rem;
+    margin-left: auto;
     padding-top: 8.5rem;
     max-width: 47rem; }
   .eczema__title {
@@ -431,34 +433,37 @@ h2 {
   .eczema {
     margin-top: 8rem; }
     .eczema__info {
-      margin-left: 10rem;
+      margin-left: auto;
       max-width: 38rem;
       padding-top: 7.5rem; }
     .eczema__title {
-      font-size: 3.5rem; } }
+      font-size: 3.5rem; }
+    .eczema__img {
+      padding-left: 4rem; } }
 
 @media screen and (max-width: 768px) {
   .eczema {
     margin-top: 4rem; }
     .eczema__img {
-      padding-left: 2rem; }
+      padding-left: 2rem;
+      max-width: 40%; }
     .eczema__info {
       max-width: 32rem;
-      margin-left: 3rem;
-      padding-top: 5.5rem; }
+      margin-left: auto;
+      padding-top: 1.5rem; }
     .eczema__title {
       font-size: 3rem;
       padding-bottom: 2rem; }
     .eczema__text {
-      font-size: 1.6rem;
-      padding-bottom: 2rem; } }
+      font-size: 1.55rem;
+      padding-bottom: 1rem; } }
 
 @media screen and (max-width: 576px) {
   .eczema__img {
-    padding-left: 2rem;
-    width: 50vw; }
+    padding-left: 0;
+    width: 45%; }
   .eczema__info {
-    max-width: 20rem; }
+    max-width: 25rem; }
   .eczema__title {
     font-size: 2rem;
     padding-bottom: 1.5rem; }
