@@ -2,7 +2,7 @@
 @import "../utils/mixins";
 
 .treatment {
-    padding-top: 37.2rem;
+    padding-top: 29.4rem;
 
     .container {
         position: relative;
@@ -12,11 +12,10 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        justify-content: space-between;
+        padding-right: 0.5rem;
     }
 
-    &__info {
-        padding-right: 22.4rem;
-    }
 }
 
 h3 {
@@ -24,9 +23,8 @@ h3 {
     line-height: 117%;
     text-align: center;
     max-width: 70rem;
-    margin: auto;
+    margin: 0 auto 6.8rem;
     font-weight: normal;
-    padding-bottom: 6.8rem;
 }
 
 .item {

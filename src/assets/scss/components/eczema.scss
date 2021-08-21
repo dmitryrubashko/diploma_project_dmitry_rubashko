@@ -16,8 +16,6 @@
 
     &__img {
         padding-left: 6.2rem;
-        position: absolute;
-          
     }
 
     &__info {
@@ -27,11 +25,10 @@
     }
 
     &__title {
-        padding-top: 2.1rem;
-        padding-bottom: 3.4rem;
-        font-size: 4rem;
-        line-height: 117%;
-        max-width: 40rem;
+        font-size: 1.6rem;
+        line-height: 125%;
+        color: $c-secondary;
+        font-weight: normal;
     }
 
     &__text {
@@ -41,10 +38,12 @@
     }
 }
 
- h2 {
-    font-size: 1.6rem;
-    line-height: 125%;
-    color: $c-secondary;
+ h2 { 
+    padding-top: 2.1rem;
+    padding-bottom: 3.4rem;
+    font-size: 4rem;
+    line-height: 117%;
+    max-width: 40rem;
     font-weight: normal;
  }
 

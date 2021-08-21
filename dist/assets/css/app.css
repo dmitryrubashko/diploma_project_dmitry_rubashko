@@ -406,27 +406,27 @@ button {
     display: flex;
     flex-wrap: wrap; }
   .eczema__img {
-    padding-left: 6.2rem;
-    position: absolute; }
+    padding-left: 6.2rem; }
   .eczema__info {
     margin-left: auto;
     padding-top: 8.5rem;
     max-width: 47rem; }
   .eczema__title {
-    padding-top: 2.1rem;
-    padding-bottom: 3.4rem;
-    font-size: 4rem;
-    line-height: 117%;
-    max-width: 40rem; }
+    font-size: 1.6rem;
+    line-height: 125%;
+    color: #3D55F9;
+    font-weight: normal; }
   .eczema__text {
     font-size: 1.8rem;
     line-height: 178%;
     padding-bottom: 3.2rem; }
 
 h2 {
-  font-size: 1.6rem;
-  line-height: 125%;
-  color: #3D55F9;
+  padding-top: 2.1rem;
+  padding-bottom: 3.4rem;
+  font-size: 4rem;
+  line-height: 117%;
+  max-width: 40rem;
   font-weight: normal; }
 
 @media screen and (max-width: 1024px) {
@@ -474,24 +474,23 @@ h2 {
     font-size: 1.5rem; } }
 
 .treatment {
-  padding-top: 37.2rem; }
+  padding-top: 29.4rem; }
   .treatment .container {
     position: relative; }
   .treatment__row {
     display: flex;
     flex-wrap: wrap;
-    align-items: center; }
-  .treatment__info {
-    padding-right: 22.4rem; }
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0.5rem; }
 
 h3 {
   font-size: 4rem;
   line-height: 117%;
   text-align: center;
   max-width: 70rem;
-  margin: auto;
-  font-weight: normal;
-  padding-bottom: 6.8rem; }
+  margin: 0 auto 6.8rem;
+  font-weight: normal; }
 
 .item__number {
   font-size: 20px;
@@ -633,23 +632,39 @@ h4 {
     position: relative; }
   .acne__row {
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .acne__row--reverse {
+      margin-top: 13.5rem;
+      flex-direction: row-reverse;
+      margin-bottom: 10.7rem; }
   .acne__info {
     max-width: 47rem;
     margin-top: 0;
     margin-left: 23.3rem; }
+    .acne__info--reverse {
+      padding-top: 1rem;
+      margin-left: 6.4rem; }
   .acne__img {
     padding-left: 6.3rem; }
+    .acne__img--reverse {
+      margin-right: 4.5rem; }
   .acne__theme {
     font-size: 1.6rem;
     line-height: 125%;
     color: #3D55F9;
     margin-top: 10.7rem;
     padding-bottom: 1.5rem; }
+    .acne__theme--support {
+      margin-top: 4.5rem; }
   .acne__title {
     font-size: 4rem;
     line-height: 117%;
     padding-bottom: 4rem; }
+    .acne__title--reverse {
+      max-width: 35rem; }
+    .acne__title--support {
+      max-width: 43rem; }
   .acne__text1 {
     font-size: 1.8rem;
     line-height: 178%;
@@ -658,89 +673,14 @@ h4 {
     max-width: 44rem;
     font-size: 1.8rem;
     line-height: 178%; }
-
-.h-acid .container {
-  position: relative; }
-
-.h-acid__row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 13.5rem; }
-
-.h-acid__theme {
-  font-size: 1.6rem;
-  line-height: 125%;
-  color: #3D55F9;
-  margin-top: 11.7rem;
-  padding-bottom: 1.9rem; }
-
-.h-acid__title {
-  font-size: 4rem;
-  line-height: 117%;
-  padding-bottom: 4rem;
-  max-width: 35rem; }
-
-.h-acid__text1 {
-  font-size: 1.8rem;
-  line-height: 178%;
-  padding-bottom: 2.8rem; }
-
-.h-acid__text2 {
-  font-size: 1.8rem;
-  line-height: 178%; }
-
-.h-acid__info {
-  margin-left: 6.5rem;
-  max-width: 47rem; }
-
-.h-acid__img {
-  margin-left: 18.6rem; }
-
-.notes .container {
-  position: relative; }
-
-.notes__row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 10.7rem; }
-
-.notes__info {
-  max-width: 47rem;
-  margin-top: 0;
-  margin-left: 23.3rem; }
-
-.notes__img {
-  padding-left: 6.3rem; }
-
-.notes__theme {
-  font-size: 1.6rem;
-  line-height: 125%;
-  color: #3D55F9;
-  margin-top: 4.4rem;
-  padding-bottom: 2rem; }
-
-.notes__title {
-  font-size: 4rem;
-  line-height: 117%;
-  padding-bottom: 2.8rem;
-  max-width: 43rem; }
-
-.notes__text1 {
-  font-size: 1.8rem;
-  line-height: 178%;
-  padding-bottom: 3.3rem;
-  max-width: 43rem; }
-
-.notes__text2 {
-  max-width: 44rem;
-  font-size: 1.8rem;
-  line-height: 178%; }
+    .acne__text2--reverse {
+      min-width: 49rem; }
 
 .research {
   margin-top: 0.6rem; }
   .research__row {
     align-items: center;
-    margin-top: 0.6rem; }
+    margin-top: 3rem; }
   .research__img {
     display: inline-block; }
   .research__text {
@@ -898,7 +838,8 @@ h4 {
     margin-top: 47.9rem; }
   .aboutremmy__title-new {
     font-size: 2rem;
-    line-height: 160%; }
+    line-height: 160%;
+    padding-top: 2.4rem; }
   .aboutremmy__text-new {
     font-size: 1.8rem;
     line-height: 178%;
@@ -907,11 +848,10 @@ h4 {
     max-width: 42rem;
     margin-left: 12.9rem;
     padding-top: 4.2rem; }
-  .aboutremmy__item {
-    margin-left: -2.4rem;
-    margin-bottom: -1.3rem; }
   .aboutremmy__love {
-    margin-top: 6.1rem; }
+    margin-top: 7.3rem; }
+  .aboutremmy__body {
+    margin-top: 1.2rem; }
 
 @media screen and (max-width: 1024px) {
   .aboutremmy {
