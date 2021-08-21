@@ -648,14 +648,12 @@ h4 {
       flex-direction: row-reverse;
       margin-bottom: 10.7rem; }
   .acne__info {
-    max-width: 47rem;
-    margin-top: 0;
-    margin-left: 23.3rem; }
+    max-width: 47rem; }
     .acne__info--reverse {
       padding-top: 1rem;
       margin-left: 6.4rem; }
   .acne__img {
-    padding-left: 6.3rem; }
+    padding-left: 6.2rem; }
     .acne__img--reverse {
       margin-right: 4.5rem; }
   .acne__theme {
@@ -679,11 +677,9 @@ h4 {
     line-height: 178%;
     padding-bottom: 3.3rem; }
   .acne__text2 {
-    max-width: 44rem;
+    max-width: 45rem;
     font-size: 1.8rem;
     line-height: 178%; }
-    .acne__text2--reverse {
-      min-width: 49rem; }
 
 .research {
   margin-top: 0.6rem; }
@@ -715,102 +711,74 @@ h4 {
 
 @media screen and (max-width: 1024px) {
   .acne {
-    padding-top: 2rem; }
+    padding-top: 1rem; }
     .acne__info {
-      margin-left: 1rem; }
+      width: 70%;
+      margin-right: 2rem; }
+      .acne__info--reverse {
+        width: 70%;
+        margin-left: 1rem; }
     .acne__title {
       font-size: 3rem; }
     .acne__text1, .acne__text2 {
       font-size: 1.6rem; }
-  .h-acid__row {
+    .acne__img {
+      width: 30%;
+      padding-left: 0;
+      margin-left: 1rem; }
+      .acne__img--reverse {
+        margin-right: 0;
+        width: 30%; }
+    .acne__img-new {
+      width: 100%;
+      margin-right: 0; }
+    .acne__theme {
+      margin-top: 2rem; }
+    .acne__row--reverse {
+      margin-top: 2rem;
+      margin-bottom: 2rem; }
+  .discovering__row {
     margin-top: 1rem; }
-  .h-acid__img {
-    margin-left: 1rem; }
-  .h-acid__title {
-    font-size: 3rem; }
-  .h-acid__text1, .h-acid__text2 {
-    font-size: 1.6rem; }
-  .notes__row {
-    margin-top: 1rem; }
-  .notes__info {
-    margin-left: 1rem; }
-  .notes__title {
-    font-size: 3rem; }
-  .notes__text1, .notes__text2 {
-    font-size: 1.6rem; } }
+  .research__row {
+    margin-top: -2rem; } }
 
 @media screen and (max-width: 768px) {
   .acne__info {
-    max-width: 30rem; }
-  .acne__title {
-    font-size: 2.5rem; }
-  .acne__text1, .acne__text2 {
-    font-size: 1.5rem; }
-  .h-acid__img {
+    width: 65%;
+    margin-right: 1rem; }
+    .acne__info--reverse {
+      width: 65%;
+      margin-left: 1rem; }
+  .acne__img {
+    width: 25%;
+    padding-left: 0;
     margin-left: 1rem; }
-  .h-acid__info {
-    max-width: 30rem; }
-  .h-acid__title {
-    font-size: 2.5rem; }
-  .h-acid__text1, .h-acid__text2 {
-    font-size: 1.5rem; }
-  .notes__info {
-    max-width: 30rem; }
-  .notes__title {
-    font-size: 2.5rem; }
-  .notes__text1, .notes__text2 {
-    font-size: 1.5rem; }
+    .acne__img--reverse {
+      margin-right: 0;
+      width: 25%; }
+  .acne__title {
+    font-size: 2rem;
+    padding-bottom: 0.8rem; }
+  .acne__theme {
+    padding-bottom: 0.7rem; }
+  .acne__text1, .acne__text2 {
+    font-size: 1.5rem;
+    padding-bottom: 0.7rem; }
   .research__text, .discovering__text {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  .research__row {
+    padding-top: 1.5rem; } }
 
 @media screen and (max-width: 576px) {
+  .acne__row {
+    display: block; }
   .acne__img {
-    max-width: 25rem;
-    padding-left: 0; }
-  .acne__img-acne {
-    width: 100%;
-    padding-left: 0; }
+    width: 50%;
+    margin: auto; }
   .acne__info {
-    max-width: 27rem; }
-  .acne__title {
-    font-size: 1.8rem;
-    padding-bottom: 1rem; }
-  .acne__text1, .acne__text2 {
-    font-size: 1.2rem;
-    padding-bottom: 1rem; }
-  .h-acid__img {
-    max-width: 25rem;
-    padding-left: 0; }
-  .h-acid__img-acne {
     width: 100%;
-    padding-left: 0; }
-  .h-acid__info {
-    max-width: 27rem;
-    margin-left: 1rem; }
-  .h-acid__title {
-    font-size: 1.8rem;
-    padding-bottom: 1rem; }
-  .h-acid__text1, .h-acid__text2 {
-    font-size: 1.2rem;
-    padding-bottom: 1rem; }
-  .notes__img {
-    max-width: 25rem;
-    padding-left: 0; }
-  .notes__img-notes {
-    width: 100%;
-    padding-left: 0; }
-  .notes__info {
-    max-width: 27rem; }
-  .notes__title {
-    font-size: 1.8rem;
-    padding-bottom: 1rem; }
-  .notes__text1, .notes__text2 {
-    font-size: 1.2rem;
-    padding-bottom: 1rem; }
-  .research__text, .discovering__text {
-    font-size: 1.4rem; }
-  .research__row, .discovering__row {
-    margin-top: 1rem; } }
+    margin: auto;
+    padding-right: 0; } }
 
 .aboutremmy {
   padding-top: 15.2rem; }
