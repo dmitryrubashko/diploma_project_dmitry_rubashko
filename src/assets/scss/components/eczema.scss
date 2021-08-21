@@ -50,21 +50,19 @@
  @media screen and (max-width: $md) {
     .eczema {
         margin-top: 8rem;
-
+        &__img {
+            padding-left: 1.6rem;
+            max-width: 40%;
+        }
         &__info {
             margin-left: auto;
-            max-width: 38rem;
-            padding-top: 7.5rem;
+            max-width: 43rem;
+            padding-top: 3rem;
         }
 
         &__title {
             font-size: 3.5rem;  
         }
-
-        &__img {
-            padding-left: 4rem;
-        }
-        
     }
  }
 
@@ -73,19 +71,17 @@
         margin-top: 4rem;
 
         &__img {
-            padding-left: 2rem;
+            padding-left: 0;
             max-width: 40%;
         }
-
         &__info {
             max-width: 32rem;
             margin-left: auto;
-            padding-top: 1.5rem;
+            padding-top: 2rem;
         }
-
         &__title {
-            font-size: 3rem;
-            padding-bottom: 2rem;
+            font-size: 2.5rem;
+            padding-bottom: 1rem;
         }
 
         &__text {
@@ -93,13 +89,18 @@
             padding-bottom: 1rem;
         }
     }
+    h2 {
+        padding-top: 0;
+        font-size: 3rem;
+        padding-bottom: 1rem;
+    }
  }
 
  @media screen and (max-width: $xs) {
     .eczema {
         &__img {
             padding-left: 0;
-            width: 45%;
+            max-width: 40%;
         }
 
         &__info {

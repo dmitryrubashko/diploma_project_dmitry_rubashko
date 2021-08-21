@@ -432,36 +432,41 @@ h2 {
 @media screen and (max-width: 1024px) {
   .eczema {
     margin-top: 8rem; }
+    .eczema__img {
+      padding-left: 1.6rem;
+      max-width: 40%; }
     .eczema__info {
       margin-left: auto;
-      max-width: 38rem;
-      padding-top: 7.5rem; }
+      max-width: 43rem;
+      padding-top: 3rem; }
     .eczema__title {
-      font-size: 3.5rem; }
-    .eczema__img {
-      padding-left: 4rem; } }
+      font-size: 3.5rem; } }
 
 @media screen and (max-width: 768px) {
   .eczema {
     margin-top: 4rem; }
     .eczema__img {
-      padding-left: 2rem;
+      padding-left: 0;
       max-width: 40%; }
     .eczema__info {
       max-width: 32rem;
       margin-left: auto;
-      padding-top: 1.5rem; }
+      padding-top: 2rem; }
     .eczema__title {
-      font-size: 3rem;
-      padding-bottom: 2rem; }
+      font-size: 2.5rem;
+      padding-bottom: 1rem; }
     .eczema__text {
       font-size: 1.55rem;
-      padding-bottom: 1rem; } }
+      padding-bottom: 1rem; }
+  h2 {
+    padding-top: 0;
+    font-size: 3rem;
+    padding-bottom: 1rem; } }
 
 @media screen and (max-width: 576px) {
   .eczema__img {
     padding-left: 0;
-    width: 45%; }
+    max-width: 40%; }
   .eczema__info {
     max-width: 25rem; }
   .eczema__title {
