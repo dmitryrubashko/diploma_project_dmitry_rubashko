@@ -2,7 +2,7 @@
 @import "../utils/mixins";
 
 .aboutremmy {
-    padding-top: 15.2rem;
+    padding-top: 15.1rem;
 
     .container {
         position: relative;
@@ -36,15 +36,16 @@
     }
 
     &__row {
-        margin-top: 11.3rem;
+        margin-top: 11.4rem;
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     &__violet {
         position: absolute;
-        margin-left: -57rem;
-        margin-top: 47.9rem;
+        left: 2.5rem;
+        bottom: 8.1rem;
     }
 
     &__title-new {
@@ -61,12 +62,9 @@
 
     &__info {
         max-width: 42rem;
-        margin-left: 12.9rem;
-        padding-top: 4.2rem;
-    }
-
-    &__item {
+        margin-right: 2.1rem;
         
+        padding-top: 4.2rem;
     }
 
     &__love {
@@ -75,6 +73,10 @@
     
     &__body {
         margin-top: 1.2rem;
+    }
+
+    &__img {
+
     }
     
 }
@@ -92,15 +94,6 @@
             margin-top: 3rem;
         }
 
-        &__info {
-            max-width: 40rem;
-            margin-left: 2rem;
-        }
-
-        &__violet {
-            margin-left: -52rem;
-        }
-
         &__title-new {
             font-size: 1.8rem;    
         }
@@ -108,6 +101,25 @@
         &__text-new {
             font-size: 1.6rem;   
         }
+
+        &__img, {
+            width: 40%;
+        }
+
+        &__man {
+            width: 100%;
+        }
+
+        &__violet {
+            position: relative;
+            width: 80%;
+        }
+
+        
+
+
+        
+        
     }
 }
 
