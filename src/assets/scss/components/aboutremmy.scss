@@ -91,11 +91,13 @@
         }
 
         &__title-new {
-            font-size: 1.8rem;    
+            font-size: 1.6rem;  
+            padding-top: 1.7rem;  
         }
     
         &__text-new {
-            font-size: 1.6rem;   
+            font-size: 1.4rem;   
+            padding-top: 1.6rem;
         }
 
         &__img, {
@@ -111,86 +113,71 @@
             width: 80%;
         }
 
-        
+        &__love {
+            margin-top: 2rem;
+        }
 
-
-        
-        
+        &__info {
+            padding-top: 0;
+            margin-right: 1rem;
+        }
     }
 }
 
 @media screen and (max-width: $sm) {
     .aboutremmy {
-        &__man {
-            width: 28rem;
-        }
 
         &__violet {
-            width: 20rem;
-            margin-left: -27rem;
-            margin-top: 30rem;
+            position: relative;
+            width: 70%;
+            bottom: 4rem;
+            left: 1rem;
+        }
+
+        &__img, {
+            width: 35%;
+        }
+
+        &__man {
+            width: 100%;
         }
 
         &__info {
-            max-width: 42rem;
-            margin-left: 2rem;
-            padding-top: 0;
-        }
-
-        &__title-new {
-            font-size: 1.5rem;    
-        }
-    
-        &__text-new {
-            font-size: 1.4rem;
-            padding-top: 0.2rem;  
+            width: 60%;
         }
 
         &__item {
-            width: 6rem;
-            margin-left: -1.3rem;
+            width: 2.5rem;
         }
 
-        &__love {
-            margin-top: 3rem;
+        &__title-new {
+            font-size: 1.6rem;  
+            padding-top: 1rem;  
+        }
+    
+        &__text-new {
+            font-size: 1.3rem;   
+            padding-top: 1rem;
         }
     }
+    
 }
 
 @media screen and (max-width: $xs) {
     .aboutremmy {
-        &__man {
-            width: 18rem;
+        &__row {
+            display: block;   
         }
 
-        &__violet {
-            width: 13rem;
-            margin-left: -17rem;
-            margin-top: 19rem;
+        &__img {
+            width: 50%;
+            margin: auto;
         }
 
         &__info {
-            max-width: 34rem;
-            margin-left: 2rem;
-            padding-top: 0;
-        }
-
-        &__title-new {
-            font-size: 1.3rem;    
-        }
-    
-        &__text-new {
-            font-size: 1.2rem;
-            padding-top: 0.2rem;  
-        }
-
-        &__item {
-            width: 3.5rem;
-            margin-left: -0.8rem;
-        }
-
-        &__love {
-            margin-top: 0rem;
+            width: 100%;
+            margin: auto;
+            padding-right: 0;
         }
     }
 }
