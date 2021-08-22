@@ -958,7 +958,7 @@ h4 {
   grid-area: header10; }
 
 .conditions-grid {
-  padding-top: 12.1rem;
+  margin-top: 12.1rem;
   display: grid;
   grid-template-areas: 'header1 header2 header3 header4 header5 header6' 'header7 header8 header9 header10 header10 header10';
   grid-gap: 3.1rem; }
@@ -969,7 +969,7 @@ h4 {
   font-size: 30px;
   border-radius: 12px;
   height: 10.4rem;
-  width: 15.8rem; }
+  justify-content: space-between; }
   .item--light-blue {
     background-color: rgba(127, 221, 240, 0.1); }
   .item--blue {
@@ -995,20 +995,21 @@ h4 {
   font-size: 30px;
   border-radius: 12px;
   height: 10.4rem;
-  background-color: #F7F8FC;
-  width: 53.5rem; }
+  background-color: #F7F8FC; }
 
 @media screen and (max-width: 1024px) {
   .conditions {
     padding-top: 4rem; }
+    .conditions__text {
+      margin-top: 0.6rem;
+      font-size: 3rem; }
+    .conditions__description {
+      margin-top: 1rem; }
   .conditions-grid {
     padding-top: 2rem;
     display: grid;
-    grid-template-areas: 'header1 header2 header3 header4' 'header5 header6 header7 header8' 'header9 header10 header10 header10'; }
-  .item {
-    width: 100%; }
-  .item1 {
-    width: 100%; } }
+    grid-template-areas: 'header1 header2 header3 header4 header5 header6' 'header7 header8 header9 header10 header10 header10';
+    grid-gap: 1.1rem; } }
 
 @media screen and (max-width: 768px) {
   .conditions-grid {
@@ -1038,17 +1039,28 @@ h4 {
     color: rgba(7, 19, 48, 0.5);
     margin-left: 4rem; }
   .footer__contact {
-    margin-left: 52rem; }
+    margin-left: auto;
+    margin-right: 1rem; }
 
 @media screen and (max-width: 1024px) {
   .footer {
     margin-top: 5rem; }
     .footer__contact {
-      margin-left: auto; } }
+      margin-left: auto; }
+    .footer__text {
+      font-size: 1rem; }
+    .footer__contactinfo {
+      font-size: 1.2rem; } }
 
 @media screen and (max-width: 576px) {
   .footer {
     margin-top: 3rem; }
     .footer__contactinfo {
-      margin-left: 1rem;
-      padding: 0.4rem; } }
+      margin: 2rem; }
+    .footer__contact {
+      text-align: center;
+      margin-top: 2rem; }
+    .footer__flex {
+      display: block; }
+    .footer__text {
+      text-align: center; } }

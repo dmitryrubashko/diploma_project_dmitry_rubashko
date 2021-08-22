@@ -29,7 +29,8 @@
     }
 
     &__contact {
-        margin-left: 52rem;
+        margin-left: auto;
+        margin-right: 1rem;
     }
 }
 
@@ -41,6 +42,14 @@
         &__contact {
             margin-left: auto;
         }
+
+        &__text {
+            font-size: 1rem;
+        }
+
+        &__contactinfo {
+            font-size: 1.2rem;
+        }
     }
   
 }
@@ -50,8 +59,22 @@
         margin-top: 3rem;
 
         &__contactinfo {
-            margin-left: 1rem;
-            padding: 0.4rem;
+            
+            margin: 2rem; 
+        }
+
+        &__contact {
+            text-align: center;
+            margin-top: 2rem;
+            
+        }
+
+        &__flex {
+            display: block;
+        }
+
+        &__text {
+            text-align: center;
         }
     }
 }
