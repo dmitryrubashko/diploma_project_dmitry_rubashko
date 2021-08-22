@@ -995,21 +995,20 @@ h4 {
   font-size: 30px;
   border-radius: 12px;
   height: 10.4rem;
-  background-color: #F7F8FC; }
+  background-color: #F7F8FC;
+  width: 53.5rem; }
 
 @media screen and (max-width: 1024px) {
   .conditions {
     padding-top: 4rem; }
-    .conditions__text {
-      margin-top: 0.6rem;
-      font-size: 3rem; }
-    .conditions__description {
-      margin-top: 1rem; }
   .conditions-grid {
     padding-top: 2rem;
     display: grid;
-    grid-template-areas: 'header1 header2 header3 header4 header5 header6' 'header7 header8 header9 header10 header10 header10';
-    grid-gap: 1.1rem; } }
+    grid-template-areas: 'header1 header2 header3 header4' 'header5 header6 header7 header8' 'header9 header10 header10 header10'; }
+  .item {
+    width: 100%; }
+  .item1 {
+    width: 100%; } }
 
 @media screen and (max-width: 768px) {
   .conditions-grid {
