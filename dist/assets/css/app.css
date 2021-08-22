@@ -247,6 +247,8 @@ button {
 .logo {
   display: inline-block;
   margin-right: 6.4rem; }
+  .logo__img {
+    animation: 5s linear 0s normal none infinite running rot; }
 
 .link-header {
   display: inline-block;

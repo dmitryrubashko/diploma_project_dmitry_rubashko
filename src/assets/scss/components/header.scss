@@ -16,6 +16,11 @@ padding: 1.5rem 0;
 .logo {
     display: inline-block;
     margin-right: 6.4rem;
+    
+    &__img {
+        animation: 5s linear 0s normal none infinite running rot;
+    }
+    
 }
 
 .link-header {
