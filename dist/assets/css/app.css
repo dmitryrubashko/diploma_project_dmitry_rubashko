@@ -1024,12 +1024,14 @@ h4 {
 
 @media screen and (max-width: 768px) {
   .conditions-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: 'header1 header2 header3 header4' 'header5 header6 header7 header8' 'header9 header10 header10 header10';
     grid-gap: 1.1rem;
     grid-gap: 3.3rem; } }
 
 @media screen and (max-width: 576px) {
   .conditions-grid {
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 'header1 header2 header3' 'header4 header5 header6' 'header7 header8 header9' 'header10 header10 header10'; } }
 
 .footer {

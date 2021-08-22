@@ -192,6 +192,8 @@
 
 @media screen and (max-width: $sm) {
     .conditions-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
         grid-template-areas:
             'header1 header2 header3 header4'
             'header5 header6 header7 header8'
@@ -205,6 +207,7 @@
 
 @media screen and (max-width: $xs) {
     .conditions-grid {
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
             'header1 header2 header3'
             'header4 header5 header6'
