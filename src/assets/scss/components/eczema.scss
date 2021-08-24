@@ -98,13 +98,19 @@
 
  @media screen and (max-width: $xs) {
     .eczema {
+
+        margin-bottom: 2rem;
         &__img {
-            padding-left: 0;
-            max-width: 40%;
+            position: relative;
+            max-width: 50%;
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
         }
 
         &__info {
-            max-width: 25rem;
+            max-width: 100%;
+            margin-bottom: 1rem;
         }
 
         &__title {
@@ -115,6 +121,13 @@
         &__text {
             font-size: 1.2rem;
             padding-bottom: 1.5rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &__row {
+            display: block;
+            text-align: center;
         }
 
     }

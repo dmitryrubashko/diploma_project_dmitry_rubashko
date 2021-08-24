@@ -215,7 +215,16 @@
             'header10 header10 header10';
       }
 
-       
+      .conditions {
+          &__newtext {
+              padding-top: 2.2rem;
+              
+          }
+      }
+      
+      .item {
+          padding-left: 0.5rem;
+      }
 }
 
   

@@ -291,14 +291,18 @@ button {
   .logo {
     width: 100%; }
   .link-header {
-    margin-right: 3.5rem;
-    font-size: 1.8rem; }
+    font-size: 1.8rem;
+    display: block;
+    margin-right: 0; }
     .link-header--right {
       font-size: 1.5rem;
-      padding: 1rem;
       text-align: center;
+      width: 50%;
       margin-left: auto;
-      margin-right: 0; } }
+      margin-right: auto; }
+  .header__row {
+    display: block;
+    text-align: center; } }
 
 .first-section {
   padding-top: 1.4rem; }
@@ -387,16 +391,25 @@ button {
 
 @media screen and (max-width: 576px) {
   .healthy-skin {
-    max-width: 29rem; }
+    max-width: 100%; }
     .healthy-skin__answers {
       font-size: 2rem; }
     .healthy-skin__skincare {
       font-size: 1.4rem;
-      padding-bottom: 1.2rem; }
+      padding-bottom: 1.2rem;
+      max-width: 100%; }
     .healthy-skin__button {
       font-size: 1.4rem;
       min-width: 5.3rem;
       padding: 0.6rem 1rem; }
+  .first-section__img {
+    position: relative;
+    padding-top: 1rem;
+    width: 40%; }
+  .first-section__row {
+    max-width: 100%;
+    text-align: center;
+    display: block; }
   .email {
     display: inline-block;
     max-width: 22rem;
@@ -474,17 +487,28 @@ h2 {
     padding-bottom: 1rem; } }
 
 @media screen and (max-width: 576px) {
-  .eczema__img {
-    padding-left: 0;
-    max-width: 40%; }
-  .eczema__info {
-    max-width: 25rem; }
-  .eczema__title {
-    font-size: 2rem;
-    padding-bottom: 1.5rem; }
-  .eczema__text {
-    font-size: 1.2rem;
-    padding-bottom: 1.5rem; }
+  .eczema {
+    margin-bottom: 2rem; }
+    .eczema__img {
+      position: relative;
+      max-width: 50%;
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto; }
+    .eczema__info {
+      max-width: 100%;
+      margin-bottom: 1rem; }
+    .eczema__title {
+      font-size: 2rem;
+      padding-bottom: 1.5rem; }
+    .eczema__text {
+      font-size: 1.2rem;
+      padding-bottom: 1.5rem;
+      margin-left: auto;
+      margin-right: auto; }
+    .eczema__row {
+      display: block;
+      text-align: center; }
   h2 {
     font-size: 1.5rem; } }
 
@@ -1032,7 +1056,11 @@ h4 {
 @media screen and (max-width: 576px) {
   .conditions-grid {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 'header1 header2 header3' 'header4 header5 header6' 'header7 header8 header9' 'header10 header10 header10'; } }
+    grid-template-areas: 'header1 header2 header3' 'header4 header5 header6' 'header7 header8 header9' 'header10 header10 header10'; }
+  .conditions__newtext {
+    padding-top: 2.2rem; }
+  .item {
+    padding-left: 0.5rem; } }
 
 .footer {
   margin-top: 24.5rem;
