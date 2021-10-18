@@ -21,7 +21,6 @@ module.exports = {
 			vendors_js: './dist/assets/js/',
 			images: './dist/assets/imgs/',
 			favicon: './dist/favicon/',
-			// fonts: './local/templates/html/fonts/',
 		},
 		src: {
 			pug: './src/pug/*.pug',
@@ -43,5 +42,4 @@ module.exports = {
 			favicon: './src/assets/favicon/*.{png,ico,xml,webmanifest}',
 		}
 	},
-
 };
